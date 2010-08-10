@@ -3,7 +3,7 @@
 
 define apt::source(
 	$location = '',
-	$release = 'karmic',
+	$release = 'lucid',
 	$repos = 'main',
 	$include_src = true,
 	$required_packages = false,

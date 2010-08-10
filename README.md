@@ -18,9 +18,9 @@ apt::force { "glusterfs-server":
 ### apt::pin
 Add an apt pin for a certain release.
 <pre>
-apt::pin { "karmic": priority => 700 }
-apt::pin { "karmic-updates": priority => 700 }
-apt::pin { "karmic-security": priority => 700 }
+apt::pin { "lucid": priority => 700 }
+apt::pin { "lucid-updates": priority => 700 }
+apt::pin { "lucid-security": priority => 700 }
 </pre>
 
 ### apt::ppa
@@ -32,7 +32,7 @@ apt::ppa { "ppa:drizzle-developers/ppa": }
 ### apt::release
 Set the default apt release.  Useful when using repositoires like Debian unstable in Ubuntu.
 <pre>
-apt::release { "karmic": }
+apt::release { "lucid": }
 </pre>
 
 ### apt::source
